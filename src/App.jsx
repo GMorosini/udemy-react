@@ -7,6 +7,8 @@ import Descricao from './components/Descricao';
 import Cachorro from './components/Cachorro';
 import Counter from './components/Counter';
 import UserInfoForm from './components/UserInfoForm';
+import Button from './components/button';
+import PaiFunction from './components/PaiFunction';
 
 function App() {
   return( <>
@@ -17,6 +19,8 @@ function App() {
             <Cachorro nome="Fúria" raca="Pitbull"/>
             <Counter />
             <UserInfoForm />
+            <Button />
+            <PaiFunction />
           </> 
   );
 }
