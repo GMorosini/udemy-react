@@ -14,6 +14,8 @@ import RenderCondicional from './components/RenderCondicional';
 import LoginButton from './components/LoginButton';
 import Warning from './components/Warning';
 import NumberList from './components/NumberList';
+import BotaoEstilizado from './components/BotaoEstilizado';
+import BotaoAzul from './components/BotaoAzul';
 
 function App() {
   return( <>
@@ -60,6 +62,12 @@ function App() {
 
             {/* Listas Chaves*/}
             <NumberList numbers={[1, 2, 3, 4, 5]} />
+
+            {/* Estilos por atributo */}
+            <BotaoEstilizado />
+
+            {/* Estilos Globais */}
+            <BotaoAzul />
           </> 
   );
 }
