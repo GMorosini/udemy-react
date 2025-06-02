@@ -12,6 +12,8 @@ import PaiFunction from './components/PaiFunction';
 import Form from './components/Form';
 import RenderCondicional from './components/RenderCondicional';
 import LoginButton from './components/LoginButton';
+import Warning from './components/Warning';
+import NumberList from './components/NumberList';
 
 function App() {
   return( <>
@@ -50,6 +52,14 @@ function App() {
 
             {/* Ternário */}
             <LoginButton loggedIn={1} />
+            <LoginButton loggedIn={0} />
+
+            {/* Render Nulo */}
+            <Warning warning={1}/>
+            <Warning warning={0}/>
+
+            {/* Listas Chaves*/}
+            <NumberList numbers={[1, 2, 3, 4, 5]} />
           </> 
   );
 }
